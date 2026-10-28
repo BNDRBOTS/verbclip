@@ -72,7 +72,7 @@ the cause; the window interior is unaffected.
 On stop, transcription runs in a background thread with two retries. The last
 utterance is copied to the clipboard automatically; if `pyperclip` raises
 (Wayland), the text stays in the box and the status line says
-“clipboard unavailable — select and copy”.
+"clipboard unavailable — select and copy".
 
 ## Model behaviour
 
@@ -116,13 +116,3 @@ not the OpenAI API.
 
 Near-black `#0E0E10`, warm off-white `#E9E7E2`, one muted red `#A8403C` only
 while recording. One border weight, two fonts. No gradients, no accent palette.
-```
-
----
-
-## Run
-
-```
-pip install -r requirements.txt
-python verbclip.py
-```
