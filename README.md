@@ -126,5 +126,3 @@ while recording. One border weight, two fonts. No gradients, no accent palette.
 pip install -r requirements.txt
 python verbclip.py
 ```
-
-Window title **VerbClip**, header **VERBCLIP**, file `verbclip.py`, README `# VerbClip`, run command `python verbclip.py`, and the one `.env` error string now says `next to verbclip.py`. Everything else is byte-identical to the audited build.
